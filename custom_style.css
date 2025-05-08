@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f9f9fb;
+    color: #1a1a1a;
+}
+
+h1 {
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+h2, h3 {
+    font-weight: 600;
+    color: #444;
+}
+
+button[kind="primary"] {
+    background: linear-gradient(90deg, #00C4CC 0%, #7D2AE8 100%);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    border: none;
+}
+
+.stDataFrame, .stTable {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.05);
+    padding: 1rem;
+}
+
+div[data-testid="stProgress"] > div > div {
+    background: linear-gradient(90deg, #00C4CC, #7D2AE8);
+    border-radius: 10px;
+}
+
+.card-top3 {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
